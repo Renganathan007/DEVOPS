@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: #F5F7F8;
+    }
+    
+    #top {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    
+    #top-bar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    
+    #middle {
+        margin: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #name-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    #frame {
+        margin-right: 40px;
+    }
+    
+    .list {
+        font-size: 36px;
+        display: grid;
+    }
+    
+    .photo {
+        height: 500px;
+        border-radius: 30px;
+    }
+    
+    .tittle {
+        padding: 20px;
+    }
+    
+    .tab {
+        padding-right: 20px;
+        display: flex;
+        color: #1230AE;
+        font-family: sans-serif;
+        font-style: bold;
+        font-weight: 700;
+    }
+    
+    .name {
+        display: flex;
+        flex-wrap: wrap;
+        color: #1230AE;
+        font-family: sans-serif;
+        font-style: bold;
+        font-weight: 700;
+        font-size: 55px;
+    }
+</style>
+
+<body>
+    <div id="top">
+        <div>
+            <h2 class="tittle">Renganathan</h2>
+        </div>
+        <div id="top-bar">
+            <a class="tab">Skills</a>
+            <a class="tab">Education</a>
+            <a class="tab">Projects</a>
+            <a class="tab">About</a>
+            <a class="tab">Contact</a>
+        </div>
+    </div>
+    <div id="middle">
+        <div id="name-container">
+            <p class="name">Hi there<br> I am Renganathan</p><br>
+            <i class="fa-brands fa-instagram list"></i>
+            <i class="fa-brands fa-facebook list"></i>
+        </div>
+        <div id="frame">
+            <img src="./img.jpg" class="photo">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
